@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 Route::resource('discloses', 'DiscloseController');
 Route::resource('images', 'ImageController');
+Route::resource('appointments', 'AppointmentController');
